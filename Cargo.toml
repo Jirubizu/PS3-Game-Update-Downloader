@@ -1,0 +1,15 @@
+[package]
+name = "PS3GameUpdateDownloader"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.11.13", features = ["json", "stream"] }
+tokio = { version = "1.22.0", features = ["full"] }
+eframe = "0.21.3"
+regex = "1.7.0"
+roxmltree = "0.18.0"
+futures-util = "0.3.26"
+catppuccin-egui = "2.0"
